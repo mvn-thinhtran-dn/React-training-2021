@@ -1,0 +1,41 @@
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-header a:hover {
+  color: blue;
+}
+
+.menu-1, .menu-2, .menu-3 {
+  padding: 0 20px;
+}
+
+.logo-item {
+  border-radius: 25px;
+  display: inline;
+  margin: 2px 8px 2px 2px;
+  object-fit: cover;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+}
+li {
+  display: flex;
+}
+
+ul li .logo-item {
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
