@@ -41,3 +41,21 @@ header {
     transform: rotate(360deg);
   }
 }
+
+.page-home {
+  display: flex;
+}
+
+.page-home div {
+  margin: 10px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  justify-content: center;
+}

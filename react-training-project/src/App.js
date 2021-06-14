@@ -1,22 +1,25 @@
-// import logo from './logo.svg';
 import './App.css';
-
-import Header from './Componnents/Header'
-import Main from './Componnents/Main'
-import Footer from './Componnents/Footer'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header/>
-      </header>
-      <main className="App-main">
-        <Main/>
-      </main>
-      <footer className="App-footer">
-        <Footer/>
-      </footer>
+      <Router>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
