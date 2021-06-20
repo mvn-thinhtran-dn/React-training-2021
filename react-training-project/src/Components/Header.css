@@ -6,15 +6,16 @@
 .nav-header a {
   text-decoration: none;
   color: black;
+  padding: 0 20px;
 }
 
 .nav-header a:hover {
   color: blue;
 }
 
-.menu-1, .menu-2, .menu-3 {
+/* .menu-1, .menu-2, .menu-3 {
   padding: 0 20px;
-}
+} */
 
 .logo-item {
   border-radius: 25px;
@@ -28,11 +29,6 @@
 }
 li {
   display: flex;
-}
-
-ul li .logo-item {
-  width: 30px;
-  height: 30px;
 }
 
 ul {
