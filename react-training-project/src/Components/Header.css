@@ -31,7 +31,7 @@ li {
   display: flex;
 }
 
-ul {
+.share-list, .menu-list{
   display: flex;
   list-style-type: none;
 }

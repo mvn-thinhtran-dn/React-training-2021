@@ -4,16 +4,13 @@ import logo from '../images/instagram.jpeg'
 
 import './Header.css'
 class Header extends React.Component{
-  constructor(){
-    super()
-  }
   
   render() {
     return (
       <>
         <div className="nav-header">
           <img className="logo-item" src={logo} alt="logo"/>
-          <ul>
+          <ul className="menu-list">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
