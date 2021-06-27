@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 header {
@@ -74,4 +74,213 @@ header {
   width: 100px;
   height: 100px;
   border-radius: 25px;
+}
+
+/* form */
+input[type=text], 
+input[type=password], 
+input[type=tel], 
+input[type=number],
+select, textarea {
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #AEB5B8;
+  color: #14181A;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.4s;
+  -webkit-appearance: none;
+  transition: border-color 0.4s, box-shadow 0.4s;
+  box-sizing: border-box;
+}
+input[type="text"]:hover, 
+input[type="password"]:hover, 
+input[type="tel"]:hover, 
+input[type="number"]:hover, 
+select:hover, textarea:hover {
+  border-color: #0f3661;
+}
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-size: 1.125rem;
+  height: 40px;
+  color: #fff;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 400ms ease;
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background: #0f3661;
+  width: 100%;
+}
+.btn-transparent {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.btn-transparent i {
+  font-size: 18px;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #AEB5B8;
+  border-radius: 100%;
+  background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #0f3661;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.form-select {
+  position: relative;
+  cursor: pointer;
+}
+.form-select:after {
+  content: " ";
+  display: block;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-top: 7px solid #0f3661;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  pointer-events: none;
+}
+.form-group {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.form-label {
+  display: inline-block;
+  width: 100%;
+  color: #8a8a8a;
+  padding-bottom: 10px;
+}
+.form-radio {
+  display: inline-block;
+  margin-right: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.resgister-form {
+  max-width: 550px;
+  margin: auto;
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #dbdbdb;
+}
+
+.btn-set {
+  text-align: center;
+}
+
+.btn-default {
+  background: #12c44d;
+  color: #ffffff;
+  border: 0px;
+  font-size: 16px;
+  
+  border-radius: 25px;
+  width: 80px;
+  height: 25px;
+}
+
+/* table */
+
+table {
+  background: #f8f8f8;
+  border-collapse: collapse;
+  width: 100%;
+  transition: all 0.4s;
+  border-spacing: 0;
+}
+table tr {
+  border-bottom: 1px solid #AEB5B8;
+  cursor: pointer;
+}
+table tr:hover {
+  background: #fff;
+}
+table td, th {
+  padding: 16px 8px;
+  text-align: left;
+}
+table th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #0F3661;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.form-select {
+  position: relative;
+  cursor: pointer;
+}
+.form-select:after {
+  content: " ";
+  display: block;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-top: 7px solid #0f3661;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  pointer-events: none;
 }

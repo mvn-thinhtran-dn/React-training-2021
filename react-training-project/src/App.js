@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
+import Form from './Components/Form'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </Route>
           <Route path="/">
             <Home />
+            {/* <Form /> */}
           </Route>
         </Switch>
       </Router>
