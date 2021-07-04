@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
+import Form from '../Components/Form'
 
 class About extends React.Component{
   constructor() {
@@ -15,8 +16,8 @@ class About extends React.Component{
         <header className="App-header">
           <Header/>
         </header>
-        <main className="App-main">
-          This is About page!
+        <main className="about-main">
+          <Form />
         </main>
         <footer className="App-footer">
           <Footer/>
