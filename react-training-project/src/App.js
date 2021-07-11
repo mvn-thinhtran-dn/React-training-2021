@@ -7,6 +7,7 @@ import {
 import Home from './pages/Home';
 import About from './pages/About';
 import Form from './Components/Form'
+import FormHook from './Components/FormHooks';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
             <About />
           </Route>
           <Route path="/">
-            <Home />
+            {/* <Home /> */}
             {/* <Form /> */}
+            <FormHook />
           </Route>
         </Switch>
       </Router>
