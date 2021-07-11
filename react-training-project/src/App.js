@@ -6,8 +6,9 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
-import Form from './Components/Form'
+import Form from './Components/Form';
 import FormHook from './Components/FormHooks';
+import UserAPI from './Components/UserAPI';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/">
             {/* <Home /> */}
             {/* <Form /> */}
-            <FormHook />
+            {/* <FormHook /> */}
+            <UserAPI />
           </Route>
         </Switch>
       </Router>
