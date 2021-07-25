@@ -284,3 +284,20 @@ table th {
   border-right: 7px solid transparent;
   pointer-events: none;
 }
+
+.avatar {
+  max-width: 60px;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #95ecc1;
+}
+
+.display-flex {
+  display: flex;
+}
+
+th:nth-child(1), td:nth-child(1) {
+  text-align: center;
+}
