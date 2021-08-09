@@ -1,0 +1,44 @@
+.page-header {
+  background: #222;
+  padding: 8px;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .header-account {
+    margin-left: auto;
+    display: flex;
+    align-self: center;
+    li {
+      margin-left: 20px;
+    }
+    a {
+      color: #fff;
+      font-size: 18px;
+    }
+    svg {
+      display: block;
+      font-size: 20px;
+    }
+  }
+  .logo {
+    img {
+      width: 60px;
+    }
+  }
+}
+
+.page-nav {
+  a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    margin-left: 20px;
+  }
+}
