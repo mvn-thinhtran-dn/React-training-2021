@@ -42,3 +42,23 @@
     margin-left: 20px;
   }
 }
+
+.wrap-fav-couter {
+  position: relative;
+  color: #fff;
+  span {
+    top: -10px;
+    left: -10px;
+    height: 16px;
+    width: 16px;
+    padding: 0px 6px;
+    font-size: 15px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    background-color: red;
+    justify-content: center;
+    color: #fff;
+  }
+}
